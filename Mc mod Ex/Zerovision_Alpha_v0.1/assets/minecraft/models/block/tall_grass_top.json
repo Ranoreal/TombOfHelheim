@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/crops/tall_grass",
+		"1": "block/crops/tall_grass",
+		"particle": "block/crops/tall_grass"
+	}
+
+
+}

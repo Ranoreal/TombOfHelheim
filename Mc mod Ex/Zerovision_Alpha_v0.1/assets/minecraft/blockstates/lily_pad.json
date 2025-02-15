@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+	{"model": "minecraft:block/lily_pad", "weight": 4 },
+   	{"model": "minecraft:block/lily_pad", "y": 90, "weight": 4 },
+	{"model": "minecraft:block/lily_pad", "y": 180, "weight": 4 },
+	{"model": "minecraft:block/lily_pad", "y": 270, "weight": 4 },
+	{"model": "minecraft:block/lily_pad", "weight": 4 },
+    	{"model": "minecraft:block/lily_pad_2", "y": 90, "weight": 10 },
+	{"model": "minecraft:block/lily_pad_2", "y": 180, "weight": 10 },
+	{"model": "minecraft:block/lily_pad_2", "y": 270, "weight": 10 },
+	{"model": "minecraft:block/lily_pad_2", "weight": 10 }
+    ]
+  }
+}

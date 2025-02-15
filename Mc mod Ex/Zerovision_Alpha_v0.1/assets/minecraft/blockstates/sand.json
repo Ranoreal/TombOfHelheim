@@ -1,0 +1,8 @@
+{
+    "__comment": "Zerotekz",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/sand" }
+        ]
+    }
+}

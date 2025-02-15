@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      { "model": "minecraft:block/grass", "weight": 10 },
+      { "model": "minecraft:block/grass", "weight": 10, "y": 90 },
+      { "model": "minecraft:block/grass", "weight": 10, "y": 180 },
+      { "model": "minecraft:block/grass", "weight": 10, "y": 270 },
+      { "model": "minecraft:block/grass_1", "weight": 10 },
+      { "model": "minecraft:block/grass_1", "weight": 10, "y": 90 },
+      { "model": "minecraft:block/grass_1", "weight": 10, "y": 180 },
+      { "model": "minecraft:block/grass_1", "weight": 10, "y": 270 }
+	]
+  }
+}

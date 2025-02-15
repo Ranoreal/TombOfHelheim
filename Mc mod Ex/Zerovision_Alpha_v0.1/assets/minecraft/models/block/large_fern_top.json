@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/crops/fern1",
+		"1": "block/crops/large_fern",
+		"particle": "block/crops/fern1"
+	}
+
+
+}

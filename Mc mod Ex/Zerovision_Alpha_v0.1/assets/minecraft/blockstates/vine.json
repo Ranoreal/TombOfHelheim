@@ -1,0 +1,61 @@
+{
+  "multipart": [
+    {
+      "when": { "up": "true" },
+      "apply": [ 
+      	{ "model": "minecraft:block/vine_top", "y": 0   },
+      	{ "model": "minecraft:block/vine_top", "y": 90  },
+      	{ "model": "minecraft:block/vine_top", "y": 180 },
+      	{ "model": "minecraft:block/vine_top", "y": 270 }
+      ]
+    },
+    {
+      "when": { "north": "true" },
+      "apply": [ 
+      	{ "model": "minecraft:block/vine", "y": 0 }
+      ]
+    },
+    {
+      "when": { "east": "true" },
+      "apply": [ 
+      	{ "model": "minecraft:block/vine", "y": 90 }
+      ]
+    },    
+    {
+      "when": { "south": "true" },
+      "apply": [ 
+      	{ "model": "minecraft:block/vine", "y": 180 }
+      ]
+    },    
+    {
+      "when": { "west": "true" },
+      "apply": [ 
+      	{ "model": "minecraft:block/vine", "y": 270 }
+      ]
+    },
+	{
+      "when": { "up": true, "north": true, "east": false, "south": false, "west": false },
+      "apply": [ 
+      	{ "model": "minecraft:block/vine_top", "y": 0 }
+      ]
+    },
+    {
+      "when": { "up": true, "north": false, "east": true, "south": false, "west": false },
+      "apply": [ 
+      	{ "model": "minecraft:block/vine_top", "y": 90 }
+      ]
+    },
+    {
+      "when": { "up": true, "north": false, "east": false, "south": true, "west": false },
+      "apply": [ 
+      	{ "model": "minecraft:block/vine_top", "y": 180 }
+      ]
+    },
+    {
+      "when": { "up": true, "north": false, "east": false, "south": false, "west": true },
+      "apply": [ 
+      	{ "model": "minecraft:block/vine_top", "y": 270 }
+      ]
+    }
+  ]
+}
