@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tombofhelheim:item/divan_alloy"
+  }
+}
