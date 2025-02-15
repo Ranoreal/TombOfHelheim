@@ -123,8 +123,14 @@ repositories {
     //     dir 'libs'
     // }
     maven {
-        url "https://cursemaven.com" //Adds Curse Maven
+        url 'https://www.cursemaven.com'
+        // FG4: It's recommended to uncomment the following block
+         content {
+             includeGroup "curse.maven"
+         }
     }
+
+
 }
 
 dependencies {
@@ -137,7 +143,9 @@ dependencies {
 
     implementation fg.deobf("com.github.glitchfiend:TerraBlender-forge:${minecraft_version}-${terrablender_version}")
 
-    //runtimeOnly fg.deobf("curse.maven:")
+    implementation fg.deobf("curse.maven:loe-398780:6157677")
+    //implementation fg.deobf("curse.maven:mns-306575:6161861")
+    //implementation fg.deobf("curse.maven:mnsc-1169343:6045369")
 
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
