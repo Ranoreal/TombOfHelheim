@@ -2,6 +2,7 @@ package net.shewlzy.tombofhelheim;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.levelgen.SurfaceRules;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -15,6 +16,8 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.shewlzy.tombofhelheim.item.ModCreativeModeTabs;
+import net.shewlzy.tombofhelheim.item.ModItems;
 import net.shewlzy.tombofhelheim.worldgen.biome.ModOverworldRegion;
 import net.shewlzy.tombofhelheim.worldgen.biome.ModTerrablender;
 import net.shewlzy.tombofhelheim.worldgen.biome.surface.ModSurfaceRules;
@@ -37,6 +40,9 @@ public class TombOfHelheim
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
 
         //ModTerrablender.registerBiomes();
 
@@ -66,7 +72,6 @@ public class TombOfHelheim
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
